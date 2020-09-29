@@ -27,8 +27,8 @@ end
 $counter = 1
 
 def take_a_number2
-  puts "Welcome you are number #{counter}"
-  counter += 1 
+  puts "Welcome you are number #{$counter}"
+  $counter += 1 
   
 end
 
