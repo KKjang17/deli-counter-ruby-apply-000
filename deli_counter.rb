@@ -24,6 +24,16 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
+counter = 1
+
+def take_a_number2(counter)
+  puts "Welcome you are number #{counter}"
+  counter += 1 
+  
+end
+
+
+
 def now_serving(array)
   if array.length == 0 
     puts "There is nobody waiting to be served!"
@@ -32,6 +42,8 @@ def now_serving(array)
     array.shift
   end
 end
+
+
 
 take_a_number(katz_deli, "Manny")
 
