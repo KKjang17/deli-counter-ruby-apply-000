@@ -12,7 +12,7 @@ def line(array)
     line_string = "The line is currently:"
     
     while i < array.length do
-      line_string << " #{i}. #{array[i]}"
+      line_string << " #{i + 1}. #{array[i]}"
       i += 1
     end
     puts line_string
