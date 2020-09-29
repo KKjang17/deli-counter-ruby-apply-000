@@ -24,7 +24,7 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
-counter = 1
+$counter = 1
 
 def take_a_number2(counter)
   puts "Welcome you are number #{counter}"
