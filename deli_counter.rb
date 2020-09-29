@@ -8,11 +8,11 @@ def line(array)
     puts "The line is currently empty."
     
   else
-    i = 0 
+    i = 1 
     line_string = "The line is currently:"
     
     while i < array.length do
-      line_string << " #{i + 1}. #{array[i]}"
+      line_string << " #{i}. #{array[i]}"
       i += 1
     end
     puts line_string
