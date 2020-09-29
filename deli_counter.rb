@@ -32,7 +32,8 @@ def take_a_number2
   
 end
 
-
+take_a_number2
+take_a_number2
 
 
 def now_serving(array)
