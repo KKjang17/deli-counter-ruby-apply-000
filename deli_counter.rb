@@ -8,7 +8,7 @@ def line(array)
     puts "The line is currently empty."
     
   else
-    i = 1 
+    i = 0 
     line_string = "The line is currently:"
     
     while i < array.length do
